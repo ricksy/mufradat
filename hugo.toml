@@ -1,0 +1,38 @@
+baseURL = 'https://mufradat.com/'
+languageCode = 'en-us'
+title = 'Mufradat'
+theme = 'PaperMod'
+
+[params]
+  defaultTheme = 'auto'
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  disableSpecial1stPost = true
+  
+  [params.homeInfoParams]
+    Title = 'Welcome to Mufradat'
+    Content = 'A place for words and ideas.'
+
+[[params.socialIcons]]
+  name = 'github'
+  url = '#'
+
+[menu]
+  [[menu.main]]
+    identifier = 'home'
+    name = 'Home'
+    url = '/'
+    weight = 10
+  [[menu.main]]
+    identifier = 'about'
+    name = 'About'
+    url = '/about/'
+    weight = 20
+  [[menu.main]]
+    identifier = 'impressum'
+    name = 'Impressum'
+    url = '/impressum/'
+    weight = 100
