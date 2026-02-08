@@ -13,12 +13,8 @@ theme = 'PaperMod'
   disableSpecial1stPost = true
   
   [params.homeInfoParams]
-    Title = 'Welcome to Mufradat'
-    Content = 'A place for words and ideas.'
-
-[[params.socialIcons]]
-  name = 'github'
-  url = '#'
+    Title = ''
+    Content = ''
 
 [menu]
   [[menu.main]]

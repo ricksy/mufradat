@@ -32,4 +32,4 @@ Put images in static/images/ then reference in markdown as:
 
 ## Repo
 
-https://github.com/ricksy/mufradat
+https://codeberg.org/Mufradat/mufradat

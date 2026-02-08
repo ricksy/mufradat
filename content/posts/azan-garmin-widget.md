@@ -4,6 +4,9 @@ date: 2026-02-05
 draft: false
 tags: ["garmin", "prayer-times", "connect-iq"]
 summary: "A Garmin Connect IQ widget that displays Islamic prayer times with moon phases, sun position charts, and Qibla direction."
+cover:
+  image: "/images/azan/hero.png"
+  alt: "Azan - Prayer Times on Your Garmin Watch"
 ---
 
 I built **Azan**, a Garmin widget that brings accurate Islamic prayer times to your wrist. As someone who wears a Garmin watch daily, I wanted a native way to check prayer times without pulling out my phone.
