@@ -1,1 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Diyanet on Mufradat</title><link>https://mufradat.com/tags/diyanet/</link><description>Recent content in Diyanet on Mufradat</description><generator>Hugo -- 0.147.1</generator><language>en-us</language><lastBuildDate>Thu, 05 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://mufradat.com/tags/diyanet/index.xml" rel="self" type="application/rss+xml"/><item><title>The Diyanet Prayer Time Method: A Black Box That Can't Be Reproduced</title><link>https://mufradat.com/posts/diyanet-prayer-time-method/</link><pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate><guid>https://mufradat.com/posts/diyanet-prayer-time-method/</guid><description>After months of trying to reproduce the Turkish Diyanet prayer time calculations, we found systematic discrepancies that no amount of parameter tuning can explain. Here&amp;rsquo;s what we found &amp;ndash; and why it matters.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Diyanet on Mufradat</title>
+    <link>https://mufradat.com/tags/diyanet/</link>
+    <description>Recent content in Diyanet on Mufradat</description>
+    <generator>Hugo -- 0.147.1</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 05 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://mufradat.com/tags/diyanet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Diyanet Prayer Time Method: A Black Box That Can&#39;t Be Reproduced</title>
+      <link>https://mufradat.com/posts/diyanet-prayer-time-method/</link>
+      <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://mufradat.com/posts/diyanet-prayer-time-method/</guid>
+      <description>After months of trying to reproduce the Turkish Diyanet prayer time calculations, we found systematic discrepancies that no amount of parameter tuning can explain. Here&amp;rsquo;s what we found &amp;ndash; and why it matters.</description>
+    </item>
+  </channel>
+</rss>

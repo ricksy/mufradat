@@ -1,1 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Dino on Mufradat</title><link>https://mufradat.com/tags/dino/</link><description>Recent content in Dino on Mufradat</description><generator>Hugo -- 0.147.1</generator><language>en-us</language><lastBuildDate>Thu, 05 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://mufradat.com/tags/dino/index.xml" rel="self" type="application/rss+xml"/><item><title>Dino Run: Chrome Dino Game on Your Garmin Watch</title><link>https://mufradat.com/posts/dino-run-garmin/</link><pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate><guid>https://mufradat.com/posts/dino-run-garmin/</guid><description>The classic Chrome offline T-Rex runner game, recreated for Garmin watches. Jump over cacti, duck under birds, and chase your high score.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Dino on Mufradat</title>
+    <link>https://mufradat.com/tags/dino/</link>
+    <description>Recent content in Dino on Mufradat</description>
+    <generator>Hugo -- 0.147.1</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 05 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://mufradat.com/tags/dino/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dino Run: Chrome Dino Game on Your Garmin Watch</title>
+      <link>https://mufradat.com/posts/dino-run-garmin/</link>
+      <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://mufradat.com/posts/dino-run-garmin/</guid>
+      <description>The classic Chrome offline T-Rex runner game, recreated for Garmin watches. Jump over cacti, duck under birds, and chase your high score.</description>
+    </item>
+  </channel>
+</rss>
