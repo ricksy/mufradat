@@ -1,35 +1,57 @@
-# Mufradat Site
+# Mufradat
 
-Hugo site served at https://mufradat.com
+The Hugo source for <https://mufradat.com>.
 
-## Quick Edit
+This repository is the site. Clone it, run Hugo, and you have the whole blog
+back — no submodules to fetch, no server to log into, nothing to reach for
+that is not in here.
 
-cd /var/www/mufradat
-nano content/posts/azan-garmin-widget.md   # edit post
-hugo --destination /var/www/html            # rebuild
-git add -A && git commit -m "message" && git push
+## Build it
 
-## Add New Post
+Hugo **v0.147.1 extended**, the version the published site is built with:
 
-cd /var/www/mufradat
+```bash
+hugo server            # preview at http://localhost:1313
+hugo                   # write the site to public/
+```
+
+Pinning the version matters more than it looks: a rebuild on this version is
+byte-for-byte identical to what is being served, so any difference in the
+output is a real difference and worth reading.
+
+## Write a post
+
+```bash
 hugo new content posts/my-new-post.md
-nano content/posts/my-new-post.md          # edit, set draft: false
-hugo --destination /var/www/html
-git add -A && git commit -m "Add new post" && git push
+```
 
-## Add Images
+Then edit it and set `draft: false`. Images go in `static/images/<slug>/` and
+are referenced from the post as `/images/<slug>/hero.jpg` — the leading slash
+matters, and the path is the *published* one, not the source one.
 
-Put images in static/images/ then reference in markdown as:
-![Alt text](/images/myimage.jpg)
+## Layout
 
-## File Structure
+| Path | What it is |
+| --- | --- |
+| `content/posts/` | The posts |
+| `content/about.md`, `content/impressum.md` | The standing pages |
+| `static/images/<slug>/` | Post images, one directory per post |
+| `themes/PaperMod/` | The theme, vendored — see `themes/PaperMod/VENDORED.md` |
+| `hugo.toml` | Site config |
+| `public/` | Build output. Ignored: Hugo regenerates it, and committing it made the tree permanently dirty |
 
-- content/posts/    - Blog posts
-- content/about.md  - About page  
-- content/impressum.md - Legal notice
-- static/images/    - Images
-- hugo.toml         - Site config
+## Publishing
 
-## Repo
+Push to `main`. A GitHub Action builds the site and deploys it; there is no
+manual build-and-copy step and nothing to remember.
 
-https://codeberg.org/Mufradat/mufradat
+## Backups
+
+`origin` is GitHub. Codeberg is kept as a second remote on a different host,
+under a different company, because a backup on one provider is a backup with
+one way to fail:
+
+```bash
+git push origin main
+git push codeberg main
+```
