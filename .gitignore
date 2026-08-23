@@ -1,0 +1,8 @@
+# Hugo regenerates all of this. Committing it made the tree permanently
+# dirty, so real changes hid among hundreds of rebuilt files.
+public/
+resources/_gen/
+.hugo_build.lock
+
+# macOS
+.DS_Store
