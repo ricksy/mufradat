@@ -5,7 +5,7 @@ draft: false
 tags: ["python", "textual", "audio", "dsp", "pitch-detection", "singing", "tui", "vibe-coding"]
 summary: "I built a terminal app to turn my humming into notes, got it working, and discovered I could not use it. So it grew a tab that trains the voice instead of only tolerating it."
 cover:
-  image: "/images/humm2melody/training.gif"
+  image: "/images/humm2melody-training/training.gif"
   alt: "The training tab: a pitch bar showing how far a sung note is from its target"
 ---
 
@@ -44,7 +44,7 @@ I built this to transcribe my humming. Once it worked well enough to be honest w
 
 Which is a real result. Everything above makes the app better at understanding an imperfect voice. But if every note I hum lands on roughly the same pitch, the recording genuinely does not contain a melody, and there is no dial setting that finds one. The tool was fine. So the app grew a tab that trains the voice instead of only tolerating it.
 
-![Training: hearing a target note, singing it, and being scored](/images/humm2melody/training.gif)
+![Training: hearing a target note, singing it, and being scored](/images/humm2melody-training/training.gif)
 
 One target note at a time. Press `l` to hear it, `space` to sing it, `space` again to stop. Three exercises, in dependency order, because each one needs the one before it:
 
@@ -74,7 +74,7 @@ It got removed. The narrowing survives only in calibration, where it is derived 
 
 The rest of those fourteen versions, briefly: per-user profiles that remember your dials, voice, notation and tab. Note editing by keyboard or by clicking a note in any of the three views, with insert, delete and 50-deep undo. A piano keyboard you can play -- click keys and it builds a tune, which means you can compose without humming at all. Recordings stored as FLAC (the analysis master, must stay lossless) and playback as MP3 (regenerable from the note list, so it loses nothing), which took a 2.5s run from 354KB to 60KB. Four note-naming schemes, including German, where H is what English calls B and B means B-flat. A tempo dial that regenerates pitch per note rather than resampling, so slowing a melody down to learn it does not transpose it. And a mix dial for playing the tones over your original hum -- the most direct check there is, since tones that sit inside the hum mean it heard you right and tones that beat against it mean it did not.
 
-![Renaming, loading and deleting saved runs](/images/humm2melody/sessions.gif)
+![Renaming, loading and deleting saved runs](/images/humm2melody-training/sessions.gif)
 
 Every run is still saved automatically, including the ones where nothing was detected, because a failed transcription is exactly the thing you want to look at later. Each one keeps the hum, the rendered tones, a JSON manifest, and a CSV of every analysis frame -- time, frequency, confidence, loudness, about 43 rows a second. That last file is the detector's frame-by-frame opinion *before* smoothing threw anything away, and it is what made every diagnosis in both of these posts possible.
 
