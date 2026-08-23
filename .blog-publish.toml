@@ -1,0 +1,9 @@
+# Which project publishes which post. Written by `blog publish`.
+#
+# It exists so that publishing cannot quietly overwrite a post belonging to
+# something else -- a mistyped slug, or two projects claiming one name. To
+# take over a slug deliberately, publish with --force.
+
+[posts."humm2melody-training"]
+project = "humm2melody"
+published = "2026-08-23T16:06:41"
