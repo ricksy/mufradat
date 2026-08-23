@@ -13,6 +13,8 @@ This guide covers everything you need to know to use Azan on your Garmin watch.
 
 ## Navigation
 
+### Button Watches (Fenix, Forerunner, Enduro, Instinct, etc.)
+
 Azan uses the standard Garmin 5-button layout. The **middle-left button** handles both **UP** (short press) and **MENU** (long press).
 
 ![Navigation](/images/azan/guide_navigation.png)
@@ -25,9 +27,23 @@ Azan uses the standard Garmin 5-button layout. The **middle-left button** handle
 | **BACK** (bottom-right) | Go back / exit |
 | **MENU** (hold middle-left) | Open settings |
 
+### Touchscreen Watches (Venu, Vivoactive, etc.)
+
+On touchscreen watches without a dedicated MENU button, use touch gestures:
+
+| Gesture | Action |
+|---------|--------|
+| **Swipe up** | Next page |
+| **Swipe down** | Previous page |
+| **Tap** | Enter / confirm |
+| **Long press (hold)** | **Open settings** |
+| **Physical back button** | Go back / exit |
+
+> **Tip:** The long-press gesture works from any screen, so you can always access settings no matter which page you're viewing.
+
 ## Pages
 
-Use **UP** and **DOWN** to cycle through the five pages:
+Use **UP** and **DOWN** (or swipe on touchscreen) to cycle through the five pages:
 
 ![Page Navigation](/images/azan/guide_pages.png)
 
@@ -69,7 +85,10 @@ When you select a day, the Hijri date updates at the bottom. Islamic holidays ar
 
 ## Settings
 
-Long-press the **middle-left button** to open the settings menu:
+**Button watches:** Long-press the **middle-left button** (MENU) from any screen.
+**Touchscreen watches:** **Long-press (hold) the screen** from any screen.
+
+Available settings:
 
 - **Calculation Method**: Choose from 12 methods (Muslim World League, Egyptian, Karachi, Umm Al-Qura, Dubai, Moon Sighting, ISNA, Kuwait, Qatar, Singapore, Diyanet, Custom)
 - **Asr Method**: Standard (Shafi/Maliki/Hanbali) or Hanafi
