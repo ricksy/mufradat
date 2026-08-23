@@ -47,11 +47,11 @@ manual build-and-copy step and nothing to remember.
 
 ## Backups
 
-`origin` is GitHub. Codeberg is kept as a second remote on a different host,
-under a different company, because a backup on one provider is a backup with
-one way to fail:
+`origin` is GitHub, and at the moment it is the only remote. Codeberg used to
+be a second one, on a different host under a different company, until they
+said they would rather not host code that is mostly LLM-generated — which
+this is.
 
-```bash
-git push origin main
-git push codeberg main
-```
+So the redundancy is currently: GitHub, plus whatever local clones exist. That
+is one company away from a single point of failure, which is worth fixing at
+some point and worth knowing about until then.
