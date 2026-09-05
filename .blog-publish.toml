@@ -4,6 +4,10 @@
 # something else -- a mistyped slug, or two projects claiming one name. To
 # take over a slug deliberately, publish with --force.
 
+[posts."dino-run-update"]
+project = "garmin-dino-game"
+published = "2026-09-05T16:17:15"
+
 [posts."humm2melody-training"]
 project = "humm2melody"
 published = "2026-08-23T16:06:41"
