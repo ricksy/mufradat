@@ -12,6 +12,10 @@ published = "2026-09-07T00:30:54"
 project = "garmin-dino-game"
 published = "2026-09-05T16:17:15"
 
+[posts."floppy-bird-update"]
+project = "garmin_flappy_game"
+published = "2026-09-07T00:39:45"
+
 [posts."humm2melody-training"]
 project = "humm2melody"
 published = "2026-08-23T16:06:41"
