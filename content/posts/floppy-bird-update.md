@@ -1,6 +1,6 @@
 ---
 title: "Floppy Bird 0.1.2: Eleven People Said It Was Slow"
-date: 2026-09-07
+date: 2026-09-06T21:00:00Z
 draft: false
 tags: ["garmin", "game", "connect-iq", "performance", "accessibility"]
 summary: "They were right, and it was not the difficulty curve. The game was throwing away a fifth of its own speed every frame."
